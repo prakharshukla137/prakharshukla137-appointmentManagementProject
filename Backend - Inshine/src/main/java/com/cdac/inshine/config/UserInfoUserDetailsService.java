@@ -1,0 +1,29 @@
+package com.cdac.inshine.config;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Component;
+
+import com.cdac.inshine.dao.RegisterDao;
+import com.cdac.inshine.model.RegisterEntity;
+
+
+
+@Component
+public class UserInfoUserDetailsService implements UserDetailsService {
+
+    @Autowired
+    private RegisterDao repository;
+
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        Optional<RegisterEntity> userInfo = repository.findByName(username);
+        return userInfo.map(UserInfoUserDetails::new)
+                .orElseThrow(() -> new UsernameNotFoundException("user not found " + username));
+
+    }
+}

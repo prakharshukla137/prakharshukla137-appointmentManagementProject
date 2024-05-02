@@ -1,0 +1,20 @@
+.footer{
+    background-color: black;
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    position: static;
+}
+#head{background-color: rgb(247, 191, 200);text-transform: capitalize;height: 100px;}
+
+/* #d2{background-color: bisque;}
+#d3{background-color: blueviolet;} */
+
+#b{border-radius: 5px;color: rgb(20, 21, 5);font-size: 25px;margin: auto;margin: auto;margin: auto;}
+#b:hover{color: rgb(192, 84, 12);background-color: rgb(111, 185, 206);}
+#log,#reg{background-color: rgb(174, 113, 34);}
+
+
+

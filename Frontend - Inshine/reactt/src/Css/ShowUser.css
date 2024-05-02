@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  #show{
+    /* position: fixed; */
+    align-items: center;
+    max-width: 430px;
+    padding: 0.5rem;
+    background: #e3d4df;
+    /* margin-block-start: 10px; */
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    text-align: center;
+    justify-content:center
+    
+  }

@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Quicksand&display=swap"); 
+.profileclass {
+    position: relative;
+}
+
+*{padding: 0;
+margin: 0;}
+
+
+.profile {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+
+.info {
+    position: absolute;
+    top: 90px;
+    left: 80px;
+    right: 700px;
+    color: black;
+    text-align: justify;
+}
+
+#detail{
+    font-size: 20px ;
+    text-align: justify;
+    color: rgb(126, 131, 131);
+    
+}
+
+#heading{
+    color: rgb(56, 59, 121);
+    
+}
+

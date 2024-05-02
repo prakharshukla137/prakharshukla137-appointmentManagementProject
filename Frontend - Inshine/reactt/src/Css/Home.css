@@ -1,0 +1,102 @@
+
+*{margin: auto; text-decoration: none;}
+#head{background-color: rgb(213, 195, 208);text-transform: capitalize;height: 100px;}
+#d2{background-color: rgb(227, 228, 235);}
+/* #d2:hover{background-color: rgb(235, 209, 227); } */
+h2:hover{
+    font-style: bold;
+}
+h4:hover{
+    text-shadow: 2px 2px 5px rgb(176, 172, 168);
+    /* text-decoration-line: underline; */
+    /* font-style: italic; */
+}
+#img:hover{border: 1px solid #d36cff;}
+
+#serv{ margin-top: 60px;
+    text-shadow: 2px 2px 5px rgb(237, 182, 182);
+    font-size: 50px;
+    font-style: italic;
+    
+}
+#welcome{ margin-top: 40px;
+    text-shadow: 2px 2px 5px rgb(169, 109, 109);
+    font-size: 90px;
+    
+    /* font-style: 'Dancing Script', cursive; */
+    color: azure;
+    
+}
+#wel{ 
+    text-shadow: 2px 2px 5px rgb(212, 202, 202);
+    font-size: 30px;
+    /* font-style: italic; */
+    text-align: left;
+    margin-left: 35rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+#Selectservice{ 
+    margin-top: 60px;
+    text-shadow: 2px 2px 5px rgb(247, 196, 196);
+    font-size: 60px;
+    font-style:italic;
+    color: rgb(57, 183, 183);
+    
+    
+    
+}
+#contactus{ 
+    margin-top: 60px;
+    text-shadow: 2px 2px 5px rgb(247, 196, 196);
+    font-size: 40px;
+    /* font-style:italic; */
+    color: rgb(195, 164, 225);
+    text-decoration: underline
+    
+    
+    
+}
+
+#bridal{ 
+    text-shadow: 2px 2px 5px rgb(212, 202, 202);
+    font-size: 30px;
+    font-style: italic;
+    text-align: left;
+    /* margin-left: 35rem; */
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+
+#bridalH{ margin-top: 40px;
+    text-shadow: 2px 2px 5px rgb(117, 115, 111);
+    font-size: 90px;
+    
+    /* font-style: 'Dancing Script', cursive; */
+    color: rgb(234, 12, 71);
+    
+}
+
+#bridal1{ 
+    /* text-shadow: 2px 2px 5px rgb(212, 202, 202); */
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    /* margin-left: 35rem; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+
+    
+    
+    
+
+/* #tab{ text-align: end;} */
+
+
+
+
